@@ -1,0 +1,27 @@
+<style>
+.header {
+  max-height: 30%;
+  min-height: 25%;
+}
+
+.header-image {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.header-text {
+  font-family: fantasy ;
+  font-weight:bold;
+}
+
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div> 
+      <div class="col-md-3 header-image"> 
+          <%= image_tag("kiwi_green.png", width:"100%") %></div>
+      <div class="col-md-7 header-text" style="padding-top:10%; padding-left:5%;">
+          <span style="font-size: 100px; letter-spacing:6px;"> Kiwi </span></div>
+      <div class="col-md-7 header-text" style="margin-top:-2%; padding-left:5%;"><span style="color:rgba(51, 51, 51, .7); font-size: 14px;">- a CS student and an enthusiastic programmer</span></div>
+      </div>
+    </div>

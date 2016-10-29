@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :records
+
   root :to => 'main#index'
   get 'main/index'
 
